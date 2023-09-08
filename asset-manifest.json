@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Textify-React-app/static/css/main.e6c13ad2.css",
+    "main.js": "/Textify-React-app/static/js/main.8c5f8fd5.js",
+    "static/js/787.fbf45667.chunk.js": "/Textify-React-app/static/js/787.fbf45667.chunk.js",
+    "index.html": "/Textify-React-app/index.html",
+    "main.e6c13ad2.css.map": "/Textify-React-app/static/css/main.e6c13ad2.css.map",
+    "main.8c5f8fd5.js.map": "/Textify-React-app/static/js/main.8c5f8fd5.js.map",
+    "787.fbf45667.chunk.js.map": "/Textify-React-app/static/js/787.fbf45667.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.8c5f8fd5.js"
+  ]
+}
