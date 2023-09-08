@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './Navbar';
-import Form1 from './Form1';
+import Form1 from './Form1.js';
 import React, { useState } from 'react';
 import Alert from './Alert';
 
