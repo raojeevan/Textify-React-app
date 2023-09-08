@@ -1,5 +1,5 @@
 # Textify
-Check this app at [Visit GitHub]([https://github.com](https://raojeevan.github.io/Textify-React-app))
+Check this app at ([https://github.com](https://raojeevan.github.io/Textify-React-app))
 
 ## Description
 
