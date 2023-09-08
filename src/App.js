@@ -1,24 +1,49 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './Navbar';
+import Form1 from './Form1';
+import React, { useState } from 'react';
+import Alert from './Alert';
 
 function App() {
+  const [mode, setMode] = useState('light');
+
+  const [alert, setAlert] = useState(null);
+
+  const showAlert = (message, type) => {
+    setAlert({
+      message: message,
+      type: type
+    })
+    setTimeout(() => {
+      setAlert(null)
+    }, 2000);
+
+  }
+
+  const toggleMode = () => {
+    if (mode === 'dark') {
+      setMode('light');
+      document.body.style.backgroundColor = 'white';
+      showAlert("Light Mode Has been enabled!", "success");
+    }
+    else {
+      setMode('dark');
+      document.body.style.backgroundColor = 'darkBlue';
+      showAlert("Dark mode Has been enabled!", "success");
+    }
+
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar title="Textify" mode={mode} toggleMode={toggleMode} />
+      <Alert alert={alert} />
+      <div className="container my-2" style={{ color: mode === 'dark' ? 'white' : 'black' }}>
+        <h3 className="my-3">Enter Your Text Here...</h3>
+        <Form1 mode={mode} showAlert={showAlert}/>
+      </div>
+    </>
   );
 }
 
