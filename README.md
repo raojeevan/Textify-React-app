@@ -3,6 +3,10 @@
 ## Description
 
 This is a React application that allows users to toggle between light and dark modes using a switch. It also includes various text transformation and modification features.
+
+![LightMode](https://github.com/raojeevan/Textify-React-app/blob/master/textify-Light_Mode.jpeg?raw=true)
+
+DarkMode Enabled
 ![DarkMode](https://github.com/raojeevan/Textify-React-app/blob/master/textify-Dark_Mode.jpeg?raw=true)
 
 ## Features
