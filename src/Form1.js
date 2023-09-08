@@ -148,8 +148,8 @@ export default function Form1(props) {
                 <button disabled={text.length===0} className="btn btn-primary m-2" onClick={reverseWords}>Reverse Words</button>
                 <hr className='my-1' />
                 <button disabled={text.length===0} className="btn btn-primary m-2" onClick={copy}>Copy</button>
-                <button className="btn btn-primary m-2" onClick={undo}>Undo</button>
-                <button className="btn btn-primary m-2" onClick={redo}>Redo</button>
+                <button disabled={currentStateIndex===0} className="btn btn-primary m-2" onClick={undo}>Undo</button>
+                <button disabled={currentStateIndex===textState.length - 1} className="btn btn-primary m-2" onClick={redo}>Redo</button>
                 <button disabled={text.length===0} className="btn btn-primary m-1" onClick={ClearText}>Clear</button>
             </div>
             <div className="container my-1">
