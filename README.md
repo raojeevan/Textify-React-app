@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Textify
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This is a React application that allows users to toggle between light and dark modes using a switch. It also includes various text transformation and modification features.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Toggle Light/Dark Mode:** The application allows users to switch between light and dark modes. When in dark mode, the background color is black, and text is white, providing a visually appealing and comfortable experience in low-light environments.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Text Transformation:**
+  - **Toggle Case:** Users can toggle the case of the text, converting uppercase to lowercase and vice versa.
+  - **Capitalize Words:** This feature capitalizes the first letter of each word in the input text.
+  - **Capitalize Sentences:** Users can capitalize the first letter of each sentence within the text.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Text Modification:**
+  - **Remove Extra Spaces:** The application removes extra spaces and ensures there's only one space between words.
+  - **Minify Text:** This option removes all spaces between words, effectively minifying the text.
+  - **Reverse Text:** Users can reverse the order of characters in the text.
+  - **Reverse Words:** This feature reverses the order of words in the text.
 
-### `npm test`
+- **Clipboard Copy:** Users can easily copy the modified text to their clipboard with a single click.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Undo/Redo Functionality:** The application provides undo and redo functionality, allowing users to revert to previous states of the text after making changes.
 
-### `npm run build`
+- **Text Analytics:** The application displays useful information about the text, including word count, character count, reading time, and speaking time.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository to your local machine:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   git clone https://github.com/raojeevan/Textify-React-app.git
